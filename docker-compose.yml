@@ -1,0 +1,24 @@
+
+version: '3.5'
+
+services:
+    actual:
+        container_name: actual
+        build: .
+        ports: 
+            - 5006:5006
+        volumes:
+            - server_data:/usr/bin/actual-server/server-files
+            - user_data:/usr/bin/actual-server/user-files
+
+volumes:
+    server_data:
+    user_data:
+
+
+
+
+
+
+
+
