@@ -1,4 +1,4 @@
-#actual
+# actual
 
 Actual is now open source: https://github.com/actualbudget/actual .
 This is a simple docker container to host your own actual server.
